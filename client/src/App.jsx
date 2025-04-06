@@ -50,7 +50,7 @@ function App() {
             <Route path="home" element={<ShoppingHome/>}/>
             <Route path="listing" element={<ShoppingListing/>}/>
             <Route path="account" element={<ShoppingAccount/>}/>
-            <Route path="checkut" element={<ShoppingCheckout/>}/>
+            <Route path="checkout" element={<ShoppingCheckout/>}/>
           </Route>
 
           <Route path="*" element={<NotFound/>}>
